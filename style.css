@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --gray: #36393f;
+    --fontprimary: 'Poppins',sans-serif,arial;
+    --fontsecondary: 'Inter',sans-serif,arial;
+    --secondary: #adafb3;
+}
+
+.container{
+    display: grid;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.wrapper{
+    background-color: var(--gray);
+    padding: 2rem 2rem;
+    border-radius: .3rem;
+    width: 480px;
+}
+.title{
+    font-family: var(--fontprimary);
+    font-weight: 600;
+    color: white;
+    font-size: 28px;
+}
+.sub-title{
+    margin-top: 4px;
+    font-family: var(--fontsecondary);
+    color: var(--secondary);
+}
+.form{
+    margin-top: 30px;
+}
+.box{
+    margin-bottom: 20px;
+}
+.box label{
+    font-family: var(--fontsecondary);
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+.box input{
+    margin-top: 5px;
+    outline: none;
+    padding: 18px 10px;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    border: 1px solid #222428;
+    height: 40px;
+    background-color: #303339;
+    color: var(--secondary);
+    font-family: var(--fontsecondary);
+    font-size: 16px;
+    transition: .3s all;
+}
+.box input:hover{
+    border: 1px solid black;
+}
+.box input:focus{
+    border: 1px solid #01adf1;
+}
+.link{
+    margin-top: 10px;
+    font-family: var(--fontsecondary);
+    font-size: 14px;
+    color: #797b80;
+}
+.link a{
+    font-family: var(--fontsecondary);
+    text-decoration: none;
+    color: #01adf1;
+    font-size: 14px;
+}
+.btn{
+    margin-top: 16px;
+}
+.btn button{
+    background-color: #5865f2;
+    border: none;
+    outline: none;
+    padding: 8px 0px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: var(--fontprimary);
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    transition: .3s all;
+}
+.btn button:hover{
+    background-color: #444fc5;
+}
